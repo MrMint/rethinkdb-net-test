@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RethinkDBTest.Repositories
+namespace RethinkDB.Test.Repositories
 {
 	public class RethinkDBRepository<T> :IRepository<T>
 	{
@@ -28,8 +28,8 @@ namespace RethinkDBTest.Repositories
 		{
 			get
 			{
-				IDatabaseQuery db = Query.Db("TestDB");
-				return db.Table<T>("TestTable");
+				IDatabaseQuery db = Query.Db("testDB");
+				return db.Table<T>("testTable");
 			}
 		}
 

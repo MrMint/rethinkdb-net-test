@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RethinkDBTest")]
+[assembly: AssemblyTitle("RethinkDB.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RethinkDBTest")]
+[assembly: AssemblyProduct("RethinkDB.Test")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("06981fc2-9eff-49ac-a641-e4a6aa6aa06f")]
+[assembly: Guid("2f1dde11-f266-4e8a-8a45-fb40c9a07e03")]
 
 // Version information for an assembly consists of the following four values:
 //

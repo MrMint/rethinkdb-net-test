@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RethinkDBTest.Repositories.Test
+namespace RethinkDB.Test.Models
 {
-	public class GenericTestRepository<T>
+	public interface IPersistable
 	{
+		string PersistId { get; set; }
+
+		string Name { get; set; }
 	}
 }

@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RethinkDBTest.Repositories
+namespace RethinkDB.Test.Repositories
 {
 	public interface IRepository<T>
 	{
