@@ -7,3 +7,6 @@ Test case demonstrating the issue described [here](https://github.com/mfenniak/r
 ##Utilizes 
 * rethinkdb-net-json
 * xunit
+
+##Setup
+Change the connection settings as needed in the app.config
