@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace RethinkDB.Test.Repositories.Test
 {
+	/// <summary>
+	/// A generic repository for objects that implements IPersistable
+	/// </summary>
+	/// <typeparam name="T">Implements IPersistable</typeparam>
 	public class GenericTestRepository<T> where T : IPersistable
 	{
 		private IRepository<T> repository;

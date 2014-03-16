@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace RethinkDB.Test.Repositories.Test
 {
+	/// <summary>
+	/// A Repository for TestModels
+	/// </summary>
 	public class TestRepository
 	{
 		private IRepository<TestModel> repository;

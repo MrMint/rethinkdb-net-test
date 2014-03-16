@@ -8,7 +8,11 @@ using System.Threading.Tasks;
 
 namespace RethinkDB.Test.Repositories
 {
-	public class RethinkDBRepository<T> :IRepository<T>
+	/// <summary>
+	/// A basic RethinkDB implmentation of IRepository
+	/// </summary>
+	/// <typeparam name="T"></typeparam>
+	public class RethinkDBRepository<T> : IRepository<T>
 	{
 		#region RethinkDB Connection Helpers
 

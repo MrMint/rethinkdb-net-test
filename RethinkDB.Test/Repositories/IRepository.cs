@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 
 namespace RethinkDB.Test.Repositories
 {
+	/// <summary>
+	/// Repository interface
+	/// </summary>
+	/// <typeparam name="T"></typeparam>
 	public interface IRepository<T>
 	{
 		IEnumerable<T> All();
