@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace RethinkDB.Test.Models.Test
 {
+	/// <summary>
+	/// A simple model
+	/// </summary>
 	public class TestModel : IPersistable
 	{
 		//Primary Key

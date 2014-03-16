@@ -12,6 +12,9 @@ namespace RethinkDB.Test.Tests.RepositoryTests
 {
 	public class RepositoryTests : BaseTest
 	{
+		/// <summary>
+		/// Check if the non-generic test repository throws exceptions when calling GetTestByName()
+		/// </summary>
 		[Fact]
 		public void GetByNameTestRepository()
 		{
@@ -23,6 +26,9 @@ namespace RethinkDB.Test.Tests.RepositoryTests
 			);
 		}
 
+		/// <summary>
+		/// Check if the generic test repository throws exceptions when calling GetTestByName()
+		/// </summary>
 		[Fact]
 		public void GetByNameGenericTestRepository()
 		{
